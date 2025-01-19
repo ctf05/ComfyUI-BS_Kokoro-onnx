@@ -5,14 +5,14 @@ Based on https://huggingface.co/hexgrad/Kokoro-82M
 
 
 As long as the repo is not registered on ComfyUI-Manager, it is best to install in the terminal:
-cd custom_nodes
-git clone https://github.com/Burgstall-labs/ComfyUI-BS_Kokoro-onnx
-cd ComfyUI-BS_Kokoro-onnx
-pip install -r requirements.txt
+# cd custom_nodes
+# git clone https://github.com/Burgstall-labs/ComfyUI-BS_Kokoro-onnx
+# cd ComfyUI-BS_Kokoro-onnx
+# pip install -r requirements.txt
 
 Then download the needed files from:
-https://github.com/thewh1teagle/kokoro-onnx/releases/download/model-files/kokoro-v0_19.onnx
-https://github.com/thewh1teagle/kokoro-onnx/releases/download/model-files/voices.json
+# https://github.com/thewh1teagle/kokoro-onnx/releases/download/model-files/kokoro-v0_19.onnx
+# https://github.com/thewh1teagle/kokoro-onnx/releases/download/model-files/voices.json
 
 And place them in the /custom_nodes/ComfyUI-BS-Kokoro-onnx/ folder
 
