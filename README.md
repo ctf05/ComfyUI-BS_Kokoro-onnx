@@ -11,9 +11,9 @@ And place them in the /custom_nodes/ComfyUI-BS-Kokoro-onnx/ folder
 
 Example workflow available in the Example -folder
 
-This is my first repo, be gentle. I think the license is inherited as follows:
+I think the license is inherited as follows:
 
     kokoro-onnx: MIT
     kokoro model: Apache 2.0
 
-
+This is my first repo, be gentle.
