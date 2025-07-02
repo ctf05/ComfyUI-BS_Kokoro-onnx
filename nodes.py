@@ -1,5 +1,7 @@
 import comfy.sample as comfy_sample
 import numpy as np
+old_np_load = np.load
+np.load = lambda *args, **kwargs: old_np_load(*args, allow_pickle=True, **kwargs)
 import torch
 from kokoro_onnx import Kokoro
 import logging
